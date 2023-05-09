@@ -1,0 +1,574 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1681696386848810, "dur": 1473505, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681696386849066, "dur": 2612, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681696386851679, "dur": 29425, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681696386881148, "dur": 576096, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681696387457245, "dur": 864313, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681696388321562, "dur": 753, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681696388322947, "dur": 12, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1681696387292221, "dur": 148515, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1681696387293220, "dur": 39953, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1681696387423866, "dur": 5111, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1681696387428984, "dur": 11743, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1681696387429752, "dur": 10182, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1681696387445565, "dur": 1321, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1681696387444719, "dur": 2211, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681696388323048, "dur": 169, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1681696387498746, "dur":1454, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681696387500213, "dur":223, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1681696387500454, "dur":28, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1681696387500482, "dur":506, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1681696387501012, "dur":841, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681696387501853, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681696388307123, "dur":317, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681696388307441, "dur":32, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681696388307473, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681696388307476, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681696388307488, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681696388307490, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681696388307494, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681696388307496, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681696388307500, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681696388307501, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681696388307505, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681696388307506, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681696388307511, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681696388307512, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681696388307516, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681696388307517, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681696388307521, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681696388307523, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681696388307526, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681696388307527, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681696388307531, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681696388307532, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681696388307536, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681696388307537, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681696388307541, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681696388307542, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681696388307546, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681696388307547, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681696388307551, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681696388307552, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681696388307557, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681696388307558, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681696388307562, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681696388307581, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681696388307596, "dur":5388, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1681696387501084, "dur":785, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681696387501874, "dur":4380, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681696387506266, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1681696387506274, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681696387507407, "dur":1103, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1681696387508516, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1681696387508570, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681696387508739, "dur":3011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1681696387511753, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1681696387511880, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681696387512026, "dur":5568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1681696387517635, "dur":193575, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681696387711216, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681696387711226, "dur":21033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681696387732310, "dur":42379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681696387774696, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681696387774734, "dur":4888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681696387779665, "dur":54187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681696387833861, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681696387833877, "dur":1854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681696387835792, "dur":36891, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681696387872688, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681696387872697, "dur":3361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681696387876101, "dur":93106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681696387969215, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681696387969230, "dur":17728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681696387987000, "dur":170821, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681696388157826, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681696388157835, "dur":1116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681696388158982, "dur":148143, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681696387501123, "dur":764, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681696387501887, "dur":4370, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681696387506267, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1681696387506418, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681696387519586, "dur":2372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1681696387522022, "dur":43469, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681696387565496, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681696387586036, "dur":12589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681696387598663, "dur":48982, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681696387647649, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681696387647657, "dur":6830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681696387654522, "dur":21089, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681696387675617, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681696387675627, "dur":7166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681696387682931, "dur":28984, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681696387711921, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681696387711931, "dur":26574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681696387738682, "dur":63884, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681696387802574, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681696387802589, "dur":4174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681696387806807, "dur":38410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681696387845227, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681696387845242, "dur":5462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681696387850743, "dur":69053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681696387919805, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681696387919821, "dur":1442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681696387921301, "dur":222478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681696388143784, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681696388143794, "dur":2028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681696388145847, "dur":161290, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681696387501156, "dur":739, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681696387501895, "dur":4361, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681696387506266, "dur":52590, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1681696387558861, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681696387574709, "dur":4782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1681696387579527, "dur":25966, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681696387605497, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681696387605507, "dur":2506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681696387608047, "dur":39403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681696387647455, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681696387647463, "dur":7860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681696387655358, "dur":20352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681696387675714, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681696387675722, "dur":9848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681696387685912, "dur":30105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681696387716030, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681696387716049, "dur":15499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681696387731609, "dur":28759, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681696387760373, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681696387760384, "dur":1496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681696387761919, "dur":29594, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681696387791522, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681696387791534, "dur":1507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681696387793082, "dur":79323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681696387872414, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681696387872429, "dur":3212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681696387875680, "dur":271691, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681696388147374, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681696388147397, "dur":1837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681696388149261, "dur":157867, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681696387501115, "dur":763, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681696387501878, "dur":4385, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681696387506266, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1681696387506429, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681696387512848, "dur":4757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1681696387517641, "dur":6255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1681696387523903, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681696387523913, "dur":3364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1681696387527322, "dur":40449, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681696387567776, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681696387585734, "dur":50918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681696387636702, "dur":110296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681696387747005, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681696387747019, "dur":8405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681696387755475, "dur":21060, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681696387776539, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681696387776550, "dur":3078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681696387779670, "dur":177077, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681696387956753, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681696387956765, "dur":1395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681696387958290, "dur":144482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681696388102782, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681696388102799, "dur":2107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681696388104948, "dur":202234, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681696387501200, "dur":712, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681696387501912, "dur":4348, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681696387506267, "dur":31993, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1681696387538264, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681696387538282, "dur":18674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1681696387556998, "dur":125031, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681696387682034, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681696387682044, "dur":3652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681696387685743, "dur":51717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681696387737467, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681696387737483, "dur":3818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681696387741335, "dur":31276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681696387772617, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681696387772630, "dur":2496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681696387775164, "dur":23843, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681696387799011, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681696387799021, "dur":7379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681696387806437, "dur":68735, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681696387875178, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681696387875190, "dur":3010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681696387878237, "dur":176064, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681696388054311, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681696388054330, "dur":1837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681696388056339, "dur":2251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1681696388058623, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681696388059456, "dur":2561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1681696388062061, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1681696388062182, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681696388062189, "dur":2484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1681696388064712, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1681696388064881, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681696388064890, "dur":2322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1681696388067246, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1681696388067317, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681696388067326, "dur":3946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1681696388071373, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1681696388071446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681696388071454, "dur":1333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1681696388072825, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1681696388072871, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681696388072877, "dur":4198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1681696388077111, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1681696388077300, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681696388077307, "dur":2392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1681696388079733, "dur":227384, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681696387501192, "dur":710, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681696387501903, "dur":4381, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681696387506285, "dur":11974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1681696387518284, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681696387518301, "dur":3029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1681696387521372, "dur":34191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681696387555567, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681696387573732, "dur":12570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681696387586342, "dur":82244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681696387668594, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681696387668608, "dur":10894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681696387679540, "dur":45524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681696387725072, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681696387725088, "dur":10635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681696387735767, "dur":18722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681696387754496, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681696387754508, "dur":12895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681696387767446, "dur":35911, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681696387803362, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681696387803373, "dur":4817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681696387808227, "dur":673, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681696387808904, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681696387808913, "dur":3128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681696387812080, "dur":33277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681696387845362, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681696387845371, "dur":5264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681696387850677, "dur":45602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681696387896284, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681696387896294, "dur":995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681696387897324, "dur":125723, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681696388023051, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681696388023060, "dur":1273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681696388024375, "dur":280124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681696388304504, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681696388304516, "dur":2496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681696388307051, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":6, "ts":1681696388307058, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681696387501240, "dur":681, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681696387501921, "dur":4337, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681696387506266, "dur":13359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1681696387519629, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681696387519645, "dur":1303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1681696387520990, "dur":70824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681696387591819, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681696387598378, "dur":5622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681696387604041, "dur":144413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681696387748459, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681696387748468, "dur":9716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681696387758235, "dur":19650, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681696387777890, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681696387777899, "dur":7733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681696387785678, "dur":65499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681696387851181, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681696387851189, "dur":16271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681696387867550, "dur":155426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681696388022983, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681696388022996, "dur":1344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681696388024375, "dur":199672, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681696388224052, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681696388224063, "dur":1127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681696388225218, "dur":81900, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681696387501274, "dur":657, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681696387501931, "dur":4331, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681696387506267, "dur":1047, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1681696387507318, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681696387511670, "dur":5287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1681696387517061, "dur":55156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681696387572234, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681696387572454, "dur":6828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681696387579319, "dur":36873, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681696387616197, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681696387616206, "dur":1340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681696387617581, "dur":62920, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681696387680507, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681696387680518, "dur":5424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681696387685978, "dur":46763, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681696387732791, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681696387732802, "dur":8195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681696387741037, "dur":38283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681696387779324, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681696387779333, "dur":18280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681696387797653, "dur":226784, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681696388024440, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681696388024447, "dur":1211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681696388025694, "dur":45448, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681696388071152, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681696388071165, "dur":1256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681696388072462, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1681696388072504, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681696388072511, "dur":7896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1681696388080444, "dur":226768, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681696387501307, "dur":631, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681696387501938, "dur":4420, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681696387506359, "dur":11597, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1681696387517961, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681696387518040, "dur":3163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1681696387521257, "dur":30577, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681696387551842, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681696387572409, "dur":12438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681696387584905, "dur":93860, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681696387678796, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681696387678807, "dur":6657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681696387685505, "dur":38047, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681696387723562, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681696387723576, "dur":9357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681696387732972, "dur":157759, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681696387890736, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681696387890747, "dur":1136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681696387891918, "dur":116684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681696388008608, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681696388008620, "dur":1437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681696388010096, "dur":124319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681696388134425, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681696388134441, "dur":2185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681696388136665, "dur":170493, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681696387501336, "dur":609, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681696387501945, "dur":4454, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681696387506400, "dur":358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1681696387506761, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681696387518639, "dur":3215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1681696387521895, "dur":62600, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681696387584503, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681696387585329, "dur":1463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681696387586829, "dur":19445, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681696387606278, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681696387606286, "dur":9233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681696387615563, "dur":37416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681696387652987, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681696387652999, "dur":6583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681696387659625, "dur":17419, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681696387677201, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681696387677222, "dur":5479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681696387682778, "dur":25180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681696387707964, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681696387707977, "dur":1062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681696387709084, "dur":46315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681696387755403, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681696387755411, "dur":3803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681696387759249, "dur":47648, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681696387806943, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681696387806952, "dur":1480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681696387808469, "dur":662, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681696387809135, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681696387809144, "dur":1261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681696387810445, "dur":36913, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681696387847365, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681696387847379, "dur":3583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681696387850997, "dur":37846, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681696387888851, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681696387888866, "dur":1366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681696387890270, "dur":115726, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681696388006003, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681696388006022, "dur":2967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681696388010659, "dur":75811, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681696388086479, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681696388086493, "dur":2635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681696388089178, "dur":218022, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681696387501377, "dur":576, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681696387501953, "dur":4478, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681696387506431, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1681696387506769, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681696387511686, "dur":4409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1681696387516250, "dur":402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1681696387516656, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681696387516665, "dur":2881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1681696387519593, "dur":61038, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH.exe" }}
+,{ "pid":12345, "tid":11, "ts":1681696387580635, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681696387580676, "dur":1434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH.exe" }}
+,{ "pid":12345, "tid":11, "ts":1681696387582146, "dur":23982, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681696387606132, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681696387606140, "dur":10162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681696387616343, "dur":96554, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681696387712931, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681696387712956, "dur":22405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681696387735401, "dur":17228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681696387752636, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681696387752681, "dur":3009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681696387755729, "dur":136896, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681696387892630, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681696387892638, "dur":1971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681696387894646, "dur":58039, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681696387952692, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681696387952704, "dur":4186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681696387956928, "dur":101308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681696388058242, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681696388058255, "dur":1229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681696388059521, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":11, "ts":1681696388059558, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681696388059599, "dur":1548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":11, "ts":1681696388061180, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1681696388061219, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681696388061227, "dur":1053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1681696388062312, "dur":14968, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":11, "ts":1681696388077388, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681696388077398, "dur":3825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":11, "ts":1681696388081261, "dur":225960, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681696387501406, "dur":555, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681696387501961, "dur":4466, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681696387506428, "dur":60793, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1681696387567242, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681696387567264, "dur":12164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1681696387579472, "dur":67914, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681696387647390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681696387647398, "dur":6768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681696387654201, "dur":29173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681696387683377, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681696387683388, "dur":19640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681696387703102, "dur":51917, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681696387755025, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681696387755038, "dur":3242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681696387758314, "dur":19834, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681696387778152, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681696387778162, "dur":2055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681696387780253, "dur":94942, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681696387875200, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681696387875232, "dur":1590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681696387876860, "dur":195695, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681696388072559, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681696388072567, "dur":4316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681696388076927, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":12, "ts":1681696388076968, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681696388076978, "dur":2463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":12, "ts":1681696388079475, "dur":227644, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1681696387501429, "dur":539, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1681696387501968, "dur":4464, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1681696387506432, "dur":31608, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":13, "ts":1681696387538048, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1681696387538071, "dur":1592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":13, "ts":1681696387540811, "dur":23397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1681696387564216, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1681696387573735, "dur":12385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1681696387586162, "dur":29693, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1681696387615860, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1681696387615896, "dur":1774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1681696387620721, "dur":26054, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1681696387646783, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1681696387646797, "dur":1997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1681696387648839, "dur":40420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1681696387689266, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1681696387689279, "dur":15781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1681696387705108, "dur":26646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1681696387731759, "dur":44, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1681696387731815, "dur":8968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1681696387740828, "dur":23069, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1681696387763905, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1681696387763919, "dur":4877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1681696387768849, "dur":146721, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1681696387915576, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1681696387915587, "dur":1096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1681696387916719, "dur":202517, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":13, "ts":1681696388119242, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1681696388119252, "dur":2040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":13, "ts":1681696388121338, "dur":185827, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1681696387501456, "dur":520, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1681696387501976, "dur":4411, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1681696387506388, "dur":320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":14, "ts":1681696387506713, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1681696387511778, "dur":4833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":14, "ts":1681696387516654, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":14, "ts":1681696387516758, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1681696387516765, "dur":3077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":14, "ts":1681696387519889, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":14, "ts":1681696387520012, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1681696387520258, "dur":58851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":14, "ts":1681696387579160, "dur":19948, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1681696387599137, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1681696387599148, "dur":4899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1681696387604084, "dur":154732, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":14, "ts":1681696387758820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1681696387758832, "dur":10436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":14, "ts":1681696387769304, "dur":35254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1681696387804563, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1681696387804572, "dur":3309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1681696387807921, "dur":42159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":14, "ts":1681696387850089, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1681696387850104, "dur":2894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":14, "ts":1681696387853037, "dur":281399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":14, "ts":1681696388134441, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1681696388134451, "dur":2023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":14, "ts":1681696388136518, "dur":170656, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1681696387501483, "dur":502, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1681696387501986, "dur":4366, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1681696387506352, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1681696387506591, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1681696387512071, "dur":4589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1681696387516700, "dur":25190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":15, "ts":1681696387541896, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1681696387542306, "dur":1729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":15, "ts":1681696387544077, "dur":46622, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1681696387590705, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1681696387598081, "dur":4915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1681696387603035, "dur":70426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1681696387673469, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1681696387673480, "dur":10208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1681696387683725, "dur":24517, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1681696387708247, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1681696387708255, "dur":30090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1681696387738389, "dur":23605, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1681696387762011, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1681696387762022, "dur":6637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1681696387768698, "dur":44740, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1681696387813445, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1681696387813461, "dur":1857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1681696387815358, "dur":796, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":15, "ts":1681696387816158, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1681696387816167, "dur":1078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":15, "ts":1681696387817582, "dur":33213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":15, "ts":1681696387850845, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1681696387850856, "dur":2373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":15, "ts":1681696387853265, "dur":48410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":15, "ts":1681696387901685, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1681696387901702, "dur":1341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":15, "ts":1681696387903085, "dur":37684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":15, "ts":1681696387940776, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1681696387940788, "dur":1216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":15, "ts":1681696387942050, "dur":193112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":15, "ts":1681696388135165, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1681696388135171, "dur":2530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":15, "ts":1681696388137724, "dur":169427, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1681696387501506, "dur":487, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1681696387501993, "dur":4266, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1681696387506267, "dur":568, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1681696387506839, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1681696387511838, "dur":43492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1681696387555370, "dur":39019, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1681696387594394, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1681696387598082, "dur":15070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1681696387613205, "dur":95604, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1681696387708813, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1681696387708821, "dur":26194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1681696387735056, "dur":20131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1681696387755191, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1681696387755201, "dur":3622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1681696387758862, "dur":39050, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1681696387797917, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1681696387797930, "dur":7391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1681696387805364, "dur":822, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":16, "ts":1681696387806190, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1681696387806200, "dur":2167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":16, "ts":1681696387808402, "dur":64470, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":16, "ts":1681696387872876, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1681696387872884, "dur":3756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":16, "ts":1681696387876678, "dur":111118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":16, "ts":1681696387987802, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1681696387987816, "dur":1429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":16, "ts":1681696387989286, "dur":123364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":16, "ts":1681696388112658, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1681696388112670, "dur":1266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/augus/Downloads/DP20_11200004_PedroAugustoCogolloCancino_EntregaTotal/CJH_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":16, "ts":1681696388113967, "dur":193222, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681696388314796, "dur":1592, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1681696388323269, "dur": 2208, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681696388322935, "dur": 2568, "ph": "X", "name": "Write chrome-trace events", "args": {} },
