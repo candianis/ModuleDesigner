@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class DynamicEnemy : MonoBehaviour
 {
+    public uint ID;
     public float speed = 10f;
     //Distance, between the enemy and the targetPoint, needed to get to the next checkpoint
     public float distance;
@@ -19,18 +20,13 @@ public class DynamicEnemy : MonoBehaviour
     private Vector3 targetPoint;
     private int pathIndex;
     private int pathLength;
-    public Transform[] checkPoints;
-    public List<Vector3> path;
+    public Vector3[] path;
 
     void Start()
     {
         pathIndex = 0;
-        pathLength = checkPoints.Length;
+        pathLength = path.Length;
         isLooking = false;
-        foreach(Transform checkpoint in checkPoints)
-        {
-            path.Add(checkpoint.position);
-        }
     }
 
     void Update()
@@ -73,5 +69,15 @@ public class DynamicEnemy : MonoBehaviour
             }
         }
 
+    }
+
+    public void SetDynamicEnemy(Vector3[] points)
+    {
+        this.path = points;
+    }
+
+    public void SetID(uint ID)
+    {
+        this.ID = ID;
     }
 }

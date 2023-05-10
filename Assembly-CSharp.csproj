@@ -59,12 +59,14 @@
     <Compile Include="Assets\IA\Scripts\StaticEnemy.cs" />
     <Compile Include="Assets\IA\Scripts\DynamicEnemy.cs" />
     <Compile Include="Assets\Module\Scripts\DoorKeysManager.cs" />
+    <Compile Include="Assets\Module\Scripts\EnemyFactory.cs" />
     <Compile Include="Assets\Module\Scripts\GateManager.cs" />
     <Compile Include="Assets\Module\Scripts\ModuleFactory.cs" />
     <Compile Include="Assets\Module\Scripts\ModuleManager.cs" />
     <Compile Include="Assets\Module\Scripts\Piece_Assigner.cs" />
     <Compile Include="Assets\Module\Scripts\KeyManager.cs" />
     <Compile Include="Assets\Module\Scripts\LevelFile.cs" />
+    <Compile Include="Assets\IA\Scripts\PointPosition.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

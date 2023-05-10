@@ -23,10 +23,6 @@ public class ModuleFactory : MonoBehaviour
     public string instructions_GK;
     public string[] keys_GK;
 
-    [Header("Enemies")]
-    public string instructions_enemies;
-    public string[] keys_enemies;
-
     [Header("Module Info")]
     public GameObject modulePrefab;
     [SerializeField]

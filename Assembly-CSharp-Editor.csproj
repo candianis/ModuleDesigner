@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\Module\Editor\ModuleFactoryEditor.cs" />
     <Compile Include="Assets\Module\Editor\ModuleManagerEditor.cs" />
+    <Compile Include="Assets\Module\Editor\EnemyFactoryEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
