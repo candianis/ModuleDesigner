@@ -2,16 +2,31 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Serializable]
+public struct DynamicData
+{
+    public uint ID;
+    public Vector3 position;
+    public Vector3[] path;
+
+    public DynamicData(uint ID, Vector3 pos, Vector3[] path)
+    {
+        this.ID = ID;
+        this.position = pos;
+        this.path = path;
+    }
+}
+
 public class DynamicEnemy : MonoBehaviour
 {
     public uint ID;
-    public float speed = 10f;
+    public float speed = 2f;
     //Distance, between the enemy and the targetPoint, needed to get to the next checkpoint
-    public float distance;
+    private float distance;
     private float currentSpeed;
 
     private float currentTime;
-    public float timeToWait;
+    public float timeToWait = 2;
 
     private Vector3 direction;
 
@@ -27,6 +42,8 @@ public class DynamicEnemy : MonoBehaviour
         pathIndex = 0;
         pathLength = path.Length;
         isLooking = false;
+        timeToWait = 1;
+        distance = 0.1f;
     }
 
     void Update()
@@ -71,13 +88,22 @@ public class DynamicEnemy : MonoBehaviour
 
     }
 
-    public void SetDynamicEnemy(Vector3[] points)
+    public void SetDynamicEnemy(PointPosition[] points)
     {
-        this.path = points;
+        this.path = new Vector3[points.Length];
+        for(int i = 0; i < points.Length; i++)
+        {
+            this.path[i] = points[i].position;
+        }
     }
 
     public void SetID(uint ID)
     {
         this.ID = ID;
+    }
+
+    public uint GetID()
+    {
+        return ID;
     }
 }

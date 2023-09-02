@@ -11,9 +11,24 @@ public class LevelFile : ScriptableObject
     [SerializeField]
     public List<ModuleFile> level_modules;
 
+    [Header("Enemies")]
+    [SerializeField]
+    public DynamicData[] dynamicEnemies;
+    [SerializeField]
+    public RotationalData[] rotationalEnemies;
+    [SerializeField]
+    public StaticData[] staticEnemies;
+
     public void SaveSettingsToFile(string instructions, List<ModuleFile> modules)
     {
         level_instructions = instructions;
         level_modules = new List<ModuleFile>(modules);
+    }
+
+    public void SaveEnemySettings(DynamicData[] dynamicEnemies, RotationalData[] rotationalEnemies, StaticData[] staticEnemies)
+    {
+        this.dynamicEnemies = dynamicEnemies;
+        this.rotationalEnemies = rotationalEnemies;
+        this.staticEnemies = staticEnemies;
     }
 }

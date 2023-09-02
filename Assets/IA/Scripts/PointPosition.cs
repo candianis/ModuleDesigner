@@ -2,19 +2,29 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PointPosition : MonoBehaviour
+public struct PointPosition
 {
-    public uint place;
+    public int place;
     public Vector3 position;
 
-    public PointPosition(uint place, Vector3 pos)
+    public PointPosition(int place, Vector3 pos)
     {
         this.place = place;
         this.position = pos;
     }
-    public void SetPoint(uint place, Vector3 pos)
+    public void SetPoint(int place, Vector3 pos)
     {
         this.place = place;
         this.position = pos;
+    }
+
+    public int GetPlace()
+    {
+        return place;
+    }
+
+    public Vector3 GetPosition()
+    {
+        return position;
     }
 }

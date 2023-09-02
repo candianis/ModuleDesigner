@@ -10,6 +10,8 @@ public struct ModuleFile
     [SerializeField]
     public Vector2 position;
     public List<piece_type> pieces;
+    public GateData[] gates;
+    public KeyData key;
 }
 
 
@@ -25,7 +27,7 @@ public class ModuleFactory : MonoBehaviour
 
     [Header("Module Info")]
     public GameObject modulePrefab;
-    [SerializeField]
+    
     public List<ModuleFile> modules = new List<ModuleFile>();
     public List<GameObject> modules_instances;
     public Material[] id_materials;
@@ -66,6 +68,7 @@ public class ModuleFactory : MonoBehaviour
             ModuleFile newModuleInfo = new ModuleFile();
             newModuleInfo.position = new Vector2(x, z);
             newModuleInfo.pieces = new List<piece_type>();
+            newModuleInfo.key = new KeyData(999);
 
             for(int i = 0; i < keyInfo[2].Length; ++i)
             {
@@ -98,7 +101,8 @@ public class ModuleFactory : MonoBehaviour
                 {
                     uint currentID;
                     uint keysToOpen;
-                    for(int j = 2; j < keyGKInfo.Length; j++)
+                    newModuleInfo.gates = new GateData[4];
+                    for (int j = 2; j < keyGKInfo.Length; j++)
                     {
                         switch (keyGKInfo[j][0])
                         {
@@ -106,6 +110,7 @@ public class ModuleFactory : MonoBehaviour
                             case 'K':
                                 currentID = uint.Parse(keyGKInfo[j][1].ToString());
                                 moduleIns.GetComponent<ModuleManager>().key_piece.GetComponent<Piece_Assigner>().InstantiatePieceWithID(piece_type.KEY, id_materials[currentID], currentID);
+                                newModuleInfo.key.ID = currentID;
                                 break;
 
                             case 'G':
@@ -121,23 +126,15 @@ public class ModuleFactory : MonoBehaviour
                                     currentGateIndex = 3;
 
                                 moduleIns.GetComponent<ModuleManager>().gate_pieces[currentGateIndex].GetComponent<Piece_Assigner>().InstantiatePieceWithID(piece_type.GATE,id_materials[currentID], currentID, keysToOpen);
-
+                                newModuleInfo.gates[currentGateIndex] = new GateData(currentID, keysToOpen);
                                 break;
-
                         }
 
                     }
                 }
             }
-
             modules.Add(newModuleInfo);
         }
-
-    }
-
-    public void GenerateGatesKeys()
-    {
-        
     }
 
     public void DeleteModules()
@@ -204,6 +201,20 @@ public class ModuleFactory : MonoBehaviour
                     piece.GetComponent<Piece_Assigner>().AssignPiece(module.pieces[i]);
                     if(i < module.pieces.Count)
                         ++i;
+                }
+
+                if (module.key.ID < 10)
+                {
+                    moduleIns.GetComponent<ModuleManager>().key_piece.GetComponent<Piece_Assigner>().InstantiatePieceWithID(piece_type.KEY, id_materials[module.key.ID], module.key.ID);
+                }
+
+                if (module.gates.Length > 0)
+                {
+                    for (int j = 0; j < module.gates.Length; j++)
+                    {
+                        moduleIns.GetComponent<ModuleManager>().gate_pieces[j].GetComponent<Piece_Assigner>().InstantiatePieceWithID(piece_type.GATE, id_materials[module.gates[j].ID], module.gates[j].ID, module.gates[j].keysToOpen);
+                    }
+
                 }
             }
 

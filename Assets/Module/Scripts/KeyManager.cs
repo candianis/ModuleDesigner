@@ -15,3 +15,13 @@ public class KeyManager : MonoBehaviour
         return ID;
     } 
 }
+
+[System.Serializable]
+public struct KeyData
+{
+    public uint ID;
+    public KeyData(uint ID)
+    {
+        this.ID = ID;
+    }
+}

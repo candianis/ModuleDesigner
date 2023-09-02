@@ -357,7 +357,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/IA/Scripts/DynamicEnemy.cs"
 "Assets/IA/Scripts/PointPosition.cs"
-"Assets/IA/Scripts/StaticEnemy.cs"
+"Assets/IA/Scripts/RotationalEnemy.cs"
 "Assets/Module/Scripts/DoorKeysManager.cs"
 "Assets/Module/Scripts/EnemyFactory.cs"
 "Assets/Module/Scripts/GateManager.cs"

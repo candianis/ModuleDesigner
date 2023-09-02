@@ -28,5 +28,15 @@ public class EnemyFactoryEditor : Editor
         {
             enemyFactory.CleanEnemies();
         }
+
+        if(GUILayout.Button("Save Enemies"))
+        {
+            enemyFactory.SaveEnemies();
+        }
+
+        if(GUILayout.Button("Load Enemies"))
+        {
+            enemyFactory.LoadEnemies();
+        }
     }
 }

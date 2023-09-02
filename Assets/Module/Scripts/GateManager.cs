@@ -13,3 +13,16 @@ public class GateManager : MonoBehaviour
         this.keysToOpen = keys;
     }
 }
+
+[System.Serializable]
+public struct GateData
+{
+    public uint ID;
+    public uint keysToOpen;
+
+    public GateData(uint ID, uint keys)
+    {
+        this.ID = ID;
+        this.keysToOpen = keys;
+    }
+}
